@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "addressMM",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAddressMM",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/msg.senderObjBasics4.sol": "addresses"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/msg.senderObjBasics4.sol": {
+			"keccak256": "0xe41ae6beb030e4a41ab67211b0afce7a4cf7f02fba8d490c5262a6f12481caaa",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8b975df4bbb40293f420a7e1320b14e419eceeb2bb930171a49c9e1fd3e9f734",
+				"dweb:/ipfs/QmZvoqoMNBYSYapTqskQdxqakT7VQV8FTpfVbHCtNmtoSL"
+			]
+		}
+	},
+	"version": 1
+}

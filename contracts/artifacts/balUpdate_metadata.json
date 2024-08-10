@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "updateFckBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mappingsBasics.sol": "balUpdate"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mappingsBasics.sol": {
+			"keccak256": "0x817ae6fb0216e08c340aa0a9058cbf69c567d549bc8499b819b6b681c5be3079",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://71e2c831f00b7aa7381fce31b4a333c78796b0a65660089f10cad23c96ddee37",
+				"dweb:/ipfs/QmUm4u8AFe4EVjgKT8beYGraiEvx2jqvj6MTfXCEFv4hDk"
+			]
+		}
+	},
+	"version": 1
+}

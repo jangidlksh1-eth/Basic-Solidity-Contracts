@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_PosNum",
+						"type": "uint256"
+					}
+				],
+				"name": "findPosName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "getPositions",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mappingsBasics.sol": "NumPositions"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mappingsBasics.sol": {
+			"keccak256": "0x89a67a12b4d443b5929b9b28c9549309c7c3efb48fbafc0e2cb7322da57357c0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e8f6091d85b58776e90187ad8499a834fb235f7cd38feb91172db18205449835",
+				"dweb:/ipfs/QmdgG1GDeQCvWuuBqFEkdL5ZnwD5oh97FipvKXq1JpFo9w"
+			]
+		}
+	},
+	"version": 1
+}

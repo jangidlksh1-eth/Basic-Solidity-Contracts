@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getMyAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "myAddress",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/mappingsBasics.sol": "mapShit"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/mappingsBasics.sol": {
+			"keccak256": "0xcf5162b5eb5b3435c0988b4c75f0e40971e59bb74eae4cd6a88844d579c0dfb6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e5e282a7b8ab765bf746b0aec069fe0bac3b65d4ecb30881a6a91e78845532bc",
+				"dweb:/ipfs/QmQx6oVmgHA3ZMxSyvWaYhpfXnosfS2YCEpapUBzM5iS4G"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,76 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "balanceCredit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/transferSendBasics2.sol": "receiverAction"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/transferSendBasics2.sol": {
+			"keccak256": "0xd1070391e697e4308e7d0a72e9d2dc48e13fcf7ad5ea0db32470e7cb44ae482a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://21b9c4aa8b6d125c5bd0a9d53405642d77cb09da7b6de8fd0060eac1bc552c39",
+				"dweb:/ipfs/QmdNZrMNurger6N3H4qWq6xnUMZiyikGTnQ5ACw9bRiTq9"
+			]
+		}
+	},
+	"version": 1
+}
